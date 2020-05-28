@@ -1,0 +1,26 @@
+{
+  "name": "mazesolver-lite",
+  "version": "1.0.0",
+  "description": "web app to solve mazes from uploaded files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "mazesolver",
+    "kdp",
+    "solve",
+    "route"
+  ],
+  "author": "skpjr001",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-handlebars": "^4.0.4",
+    "jimp": "^0.12.1",
+    "nodemon": "^2.0.4"
+  }
+}

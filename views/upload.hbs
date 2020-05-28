@@ -1,0 +1,38 @@
+
+<h1>file upload in maze solver</h1>
+<h1>my name is {{first}} {{last}}</h1>
+
+<form method="POST" action="/mazesolver/upload" enctype="multipart/form-data">
+    <p>
+    <input type="file" name="file" id="inputimage" value=""/>
+	<input type="number" name="startX" id="start-xid" value="" placeholder="startX">
+	<input type="number" name="startY" id="start-yid" value="" placeholder="startY">
+	<input type="number" name="endX" id="end-xid" value="" placeholder="endX">
+	<input type="number" name="endY" id="end-yid" value="" placeholder="endY">
+    <button type="submit">Upload</button>
+    </p>
+</form>
+
+
+<canvas id="canvas" style="margin:12px;"></canvas>
+
+
+
+
+{{!-- {{FOOTER}} --}}
+<div class="footer" id="results">write something that you would user to know</div>
+
+{{!-- {{STYLES}} --}}
+<style>
+div.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	background: #0072BB;
+	color:#fff;
+    width: 100%;
+}
+</style>
+
+
